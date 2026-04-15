@@ -37,7 +37,6 @@ class WidgetCircuito(QWidget):
         self.val_Vp = self.val_f = 0.0
         self.regimen = ""
         
-        # --- NUEVO: Control del flujo de electrones ---
         self.offset_electrones = 0.0
 
     def actualizar_esquema(self, res, p, I_inst=0.0):
